@@ -1,0 +1,10 @@
+.btn {
+  padding: 5px 30px;
+  border-radius: 20px;/*aredonda o botão*/
+
+}
+
+.btn.btn-laranja { /*altera a cor dos botons*/
+  background: #ff6633;
+  color: #fff;
+}
