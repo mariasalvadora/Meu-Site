@@ -1,7 +1,4 @@
-header {
-  width: 1024px;
-  margin: 30px auto;
-
+header section{/*header section juntos iguala*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
