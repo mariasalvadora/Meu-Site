@@ -13,6 +13,7 @@
   }
 }
 
+
 @media(max-width: 915px) {
   body{
     background-position: left -250px;
@@ -47,13 +48,27 @@
 
 @media (max-width: 665px) {
   .container {
-    width: 400%;
+    width: 400px;
   }
 }
 
 @media (max-width: 450px) {
   .container {
-    width: 290%;
+    width: 290px;
+  }
+  header nav {
+    background: #fff;
+    width: 100%;
+    padding: 10px 0 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0,0.5);
+  }
+
+  header nav ul {/*Menu na vertical*/
+    flex-direction: column;
+  }
+
+  header nav ul li { /*Faz o espaço do menu e curriculo*/
+    margin: 10px 0;
   }
 }
  
